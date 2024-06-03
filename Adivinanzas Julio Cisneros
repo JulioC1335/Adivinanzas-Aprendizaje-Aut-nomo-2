@@ -1,0 +1,62 @@
+import random
+
+def pc_adivina():
+    print("¿Qué modo de dificultad quieres? (1, 2 o 3)")
+    print("1: 0 al 101")
+    print("2: 102 al 201")
+    print("3: 202 al 301")
+    dificultad = int(input("Elige una opción: "))
+
+    limite_inferior = 101 * (dificultad - 1)  # Calcular límite inferior según dificultad
+    limite_superior = 101 * dificultad       # Calcular límite superior según dificultad
+    respuesta = ""
+
+    print(f"Piensa en un numero entre {limite_inferior} y {limite_superior}.")
+
+    while respuesta != "SI":
+        intento = (limite_inferior + limite_superior) // 2
+        respuesta = input(f"¿Estás pensando en el número {intento}? (Si/No): ").upper()
+
+        if respuesta == "SI":
+            print("¡Adiviné!")
+        else:
+            respuesta = input(f"¿Tu número es mayor o menor que {intento}? (Mayor/Menor): ").upper()
+            if respuesta == "MAYOR":
+                limite_inferior = intento + 1
+            elif respuesta == "MENOR":
+                limite_superior = intento - 1
+
+def usuario_adivina():
+    print("¿Qué modo de dificultad quieres? (1, 2 o 3)")
+    print("1: 0 al 101")
+    print("2: 102 al 201")
+    print("3: 202 al 301")
+    dificultad = int(input("Elige una opción: "))
+
+    numero_secreto = random.randint(101 * (dificultad - 1), 101 * dificultad - 1)
+    intento = 0
+
+    while intento != numero_secreto:
+        intento = int(input("Intenta adivinar el número: "))
+        if intento == numero_secreto:
+            print("¡Adivinaste!")
+        else:
+            print("El número es mayor." if intento < numero_secreto else "El número es menor.")
+
+while True:
+    print("\nBienvenido al Juego de Adivinanzas!")
+    print("1. PC Adivina")
+    print("2. Usuario Adivina")
+    print("3. Finalizar")
+
+    opcion = int(input("Elige una opción: "))
+
+    if opcion == 1:
+        pc_adivina()
+    elif opcion == 2:
+        usuario_adivina()
+    elif opcion == 3:
+        print("Fin del juego. ¡Gracias por jugar!")
+        break
+    else:
+        print("Opción inválida.")
