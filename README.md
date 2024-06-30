@@ -1,5 +1,6 @@
-###Realizado Por Julio Cisneros 
-###Juego de Adivinanzas (Adivinar el número)
+**Realizado Por Julio Cisneros**
+
+**Juego de Adivinanzas (Adivinar el número)**
 
 **Inicio del Proyecto**: 6/2/2024
 
@@ -11,9 +12,9 @@
 
 **Tenemos dos modos de juego**
 
-**Modo Usuario Adivina: **El usuario intenta adivinar un número secreto generado por la computadora.
+**Modo Usuario Adivina**: El usuario intenta adivinar un número secreto generado por la computadora.
 
-**Modo PC Adivina: **La computadora intenta adivinar el número que el usuario está pensando
+**Modo PC Adivina**: La computadora intenta adivinar el número que el usuario está pensando
 
 
 
@@ -143,5 +144,4 @@ while True:
         print("Fin del juego. ¡Gracias por jugar!")
         break
 ````
-
-#Muchas gracias espero que lo disfruten
+**Muchas gracias espero que lo disfruten**
