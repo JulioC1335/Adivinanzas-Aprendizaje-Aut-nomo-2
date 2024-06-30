@@ -1,10 +1,11 @@
-#Realizado Por Julio Cisneros 
-#Juego de Adivinanzas (Adivinar el número)
-**Inicio del Proyecto: **6/2/2024
+###Realizado Por Julio Cisneros 
+###Juego de Adivinanzas (Adivinar el número)
 
-**Fin del Proyecto:**6/30/2024
+**Inicio del Proyecto**: 6/2/2024
 
-**Problema: **Desarrollar el juego de Adivina  (el computador deberá adivinar el numero del usuario)
+**Fin del Proyecto**:6/30/2024
+
+**Problema**: Desarrollar el juego de Adivina  (el computador deberá adivinar el numero del usuarioz
 
 **Propósito del Proyecto**: Implementar todos los conocimientos adquiridos en la asignatura de Lógica de la Programación para desarrollar un juego en Python.
 
