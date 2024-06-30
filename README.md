@@ -18,7 +18,7 @@
 
 
 
-**ESRTRUCTURA DEL JUEGO**
+**ESTRUCTURA DEL JUEGO**
 
 **import random:** importa la biblioteca random, que proporciona funciones para generar números aleatorios.
 ````
