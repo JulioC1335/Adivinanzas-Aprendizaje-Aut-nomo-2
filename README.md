@@ -2,7 +2,7 @@
 
 **Juego de Adivinanzas (Adivinar el número)**
 
-**Inicio del Proyecto**: 6/2/2024
+**Inicio del Proyecto**: 5/19/2024
 
 **Fin del Proyecto**:6/30/2024
 
