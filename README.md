@@ -6,7 +6,7 @@
 
 **Fin del Proyecto**:6/30/2024
 
-**Problema**: Desarrollar el juego de Adivina  (el computador deberá adivinar el numero del usuarioz
+**Problema**: Desarrollar el juego de Adivina  (el computador deberá adivinar el numero del usuario
 
 **Propósito del Proyecto**: Implementar todos los conocimientos adquiridos en la asignatura de Lógica de la Programación para desarrollar un juego en Python.
 
